@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/mini-lisp-interpreter.iml" filepath="$PROJECT_DIR$/.idea/mini-lisp-interpreter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CP-Final_Project.iml" filepath="$PROJECT_DIR$/CP-Final_Project.iml" />
     </modules>
   </component>
 </project>
