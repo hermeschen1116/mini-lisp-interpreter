@@ -124,7 +124,7 @@ def expression(statement: Any, variable_table: dict):
 
 def number_operation(statement: list, variable_table: dict) -> int:
 	if type(statement) is not list:
-		return statement
+		raise SyntaxError('Need 2 or more parameters, got 1')
 	operator = statement.pop(0)
 	statement: list = [expression(s, variable_table) for s in statement]
 	for s in statement:
